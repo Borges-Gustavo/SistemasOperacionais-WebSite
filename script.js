@@ -1,4 +1,4 @@
-//fazer botão para mostrar resultado da area funcionar
+//fazer botão para mostrar resultado da area funcionar - arch
 
 function mostrarResultado() {
     var quadrado = document.getElementById("Quadrado");
@@ -31,3 +31,23 @@ function verificarResposta() {
     }
 }
 
+
+//Ubuntu - entrada de dados
+
+
+
+function calcularArea() {
+    var base = parseFloat(document.getElementById("base").value);
+    var altura = parseFloat(document.getElementById("altura").value);  
+    var area = base * altura;
+    var resultadoArea = document.getElementById("resultadoArea");
+    resultadoArea.textContent = "A área do retângulo é: " + area + " m²";
+    resultadoArea.style.color = "rgb(0, 255, 0)";
+}
+
+//mostrar na tela  o resultado da area - Ubuntu
+
+function mostrarResultadoArea() {
+    var quadrado = document.getElementById("Quadrado");
+    quadrado.style.display = "block";
+}

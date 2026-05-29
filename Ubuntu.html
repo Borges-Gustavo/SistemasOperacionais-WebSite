@@ -4,29 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
 
     </header>
     <main>
-        <div class="Sobre">
-            <img id="Ubuntu-Logo" src="../img/UbuntuCoF.svg.png" alt="Ubuntu Logo">
+        <img src="img/imagem18-1.webp" alt="Ubuntu Logo" id="Quadrado">
+        <h5>
+            Digite a altura (H) e a base (B) do triângulo para calcular a área:
+             A formula da area é A = (B * H) 
+        </h5>
 
-            <p>O Ubuntu é um sistema operacional de código aberto baseado no Linux, conhecido por sua facilidade de uso e 
-            ampla comunidade de suporte. Ele é amplamente utilizado em desktops, servidores e dispositivos IoT, oferecendo
-            uma experiência amigável para usuários iniciantes e avançados.</p>
+        <div class="Calc">
+            <input type="number" id="base" placeholder="Base (B)">
+            <input type="number" id="altura" placeholder="Altura (H)">
+            <button onclick="calcularArea()">Calcular Área</button>
+            <p id="resultadoArea"></p>
         </div>
-
-
-        <div class="Formulario">
-            <h3>
-
-            </h3>
-        </div>
-
-        
     </main>
     <footer>
 

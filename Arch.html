@@ -1,11 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kali Linux</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
+   <header>
+
+        <a href="index.html">
+     <img id="logo" src="img/Kali-Logo.png" alt="Kali Linux Logo">
+        </a>
+
+        <ul> 
+            <li><a href="index.html"  target="_blank">Home</a></li>
+            <li><a href="Kali.html" target="_blank">Kali</a></li>
+            <li><a href="Ubuntu.html" target="_blank">Ubuntu</a></li>
+            <li><a href="Arch.html" target="_blank">Arch</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="Card" id="Formulario">
+            
+            <h5>Calcule a area </h5>
+
+            <img src="img/imagem18-1.webp" alt="Quadrado" id="Quadrado">
+
+            <h5> 
+                Levando em consideração as dimensões do quadrado h=10m e b=5m 
+            </h5>
+            <h4>
+                qual das alternativas abaixo é a correta para a área do quadrado?
+            </h4>
+
+                <form action="">
+                    <input type="radio" id="opcao1" name="area" value="opcao1">
+                    <label for="opcao1">50m²</label><br>
     
+                    <input type="radio" id="opcao2" name="area" value="opcao2">
+                    <label for="opcao2">100m²</label><br>
+    
+                    <input type="radio" id="opcao3" name="area" value="opcao3">
+                    <label for="opcao3">150m²</label><br>
+    
+                    <input type="radio" id="opcao4" name="area" value="opcao4">
+                    <label for="opcao4">200m²</label><br>
+                </form>
+                <button onclick="verificarResposta()">Verificar Resposta</button>
+                <p id="resultado"></p>
+        </div>
+        
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
